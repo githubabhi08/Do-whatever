@@ -1,0 +1,113 @@
+.contact .row{
+    position: relative;
+    top: 132rem;
+}
+
+.contact #con h1{
+    position: absolute;
+    display: flex;
+    color: blue;
+    
+    font-weight: 700;
+    justify-content: center;
+    text-align: center;
+    left: 45%;
+    top: -8rem;
+}
+
+.row .telep{
+    height: 220px;
+    width: 220px;
+    position: absolute;
+    left: 52%;
+    top: 5rem;
+}
+
+.contact .row .second h1{
+    position: absolute;
+    left: 37%;
+    top: -2rem;
+    color: red;
+    font-weight: 700;
+  font-family: cursive;
+}
+
+.frm{
+    position: absolute;
+    right: 2rem;
+}
+
+.second .fonts{
+    position: absolute;
+    top: 7rem;
+    left: 3rem;
+    display: flex;
+    flex-direction: column;
+    color: red;
+    gap: 1rem;
+    
+}
+
+
+
+
+
+
+
+
+
+
+@media Screen and (max-width:408px){
+
+
+    .row .telep{
+        height: 120px;
+        width: 140px;
+        position: absolute;
+        left: 55%;
+        top: 2.3rem;
+    }
+
+
+
+    .second .fonts h2{
+        position: relative;
+        font-size: 27px;
+        left: -4%;
+        top: -1rem;
+        
+    }
+
+   
+
+    .contact #con h1{
+        position: absolute;
+        display: flex;
+        color: blue;
+        
+        font-weight: 700;
+        justify-content: center;
+        text-align: center;
+        left: 20%;
+        top: -8rem;
+    }
+
+    .contact .row .second h1{
+        position: absolute;
+        left: 7%;
+        font-size: 27px;
+        top: -1rem;
+        color: red;
+        font-weight: 700;
+      font-family: cursive;
+    }
+
+  
+
+    .frm{position: absolute;
+        top:17rem ;
+        margin-left: 7rem;
+        margin-right: 0rem;
+        width: 90%;
+    }
+}
