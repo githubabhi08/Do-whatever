@@ -40,7 +40,7 @@ function Footer() {
             
    <div className='awes'>
    <a href='https://github.com/githubabhi08'><i class="fa-brands fa-square-github"></i></a>
-    <a href='https://www.linkedin.com/in/abhijeet-das-6a6511186/'><i class="fa-brands fa-linkedin"></i></a>
+   
    </div>
     </div>
     
