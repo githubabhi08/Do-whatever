@@ -1,29 +1,14 @@
-import React, { useContext } from 'react'
-import {magic} from './App'
+import React from 'react'
+
 function Extras() {
-  const{amount,carter,selectedProductImages,setselectedProductImages,kio,add,data}=useContext(magic)
-
-  
-
-
   return (
     <>
     
-  
- 
-    <button className='btn btn-danger'>Total Amount {amount}</button>
-    <button className='btn btn-danger'>Total items {carter}</button>
+    <h1>9131492196</h1>
     
-    {selectedProductImages.map((image,i) => {
-        
-        
-       return <img  src={image} className='img-fluid' />
-        
-    })}
-
-
-       
-      
+    
+    
+    
     
     </>
   )

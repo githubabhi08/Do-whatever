@@ -1,28 +1,16 @@
-img{
-    height: 270px;
-    width: 270px;
-    position: relative;
-    top: 7rem;
+.mn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
 
-.swiper-slide{
-    height: 370px;
-    width: 370px;
-    background-color:#eee;
-    position: relative;
-    top: 7rem;
+.mn2{
+  color: yellow;
 }
 
 
-
-
-
-
-
-
-
-
-
+  
 
 
   

@@ -1,21 +1,35 @@
-import React, {useContext} from 'react'
-import {magic} from './App'
+
+import React, { useContext, useState } from 'react'
+import { magic } from './App'
+
 function Main() {
-  const{settext,data,amount,carter,pic,text,add,sub}=useContext(magic)
+  const{data,setdata,settext,text,dns,dns2}=useContext(magic)
+  const[store,setstore]=useState(data)
+  const[wrt,setwrt]=useState('')
+  
+  const dns5=()=>{
+    let rina=store
+    rina+=10
+    setstore(rina)
+    setwrt('U r Awesome Bro')
+  }
+
+  const dns9=()=>{
+    
+    setstore(data)
+    setwrt('')
+  }
+
+
   return (
     <>
     
-    {
-      pic.map((pic)=>{
-        return <div className='row'>
-          <div className='col-md-4'>
-            <img src={pic} className='img-fluid'/>
-          </div>
-        </div>
-      })
-    }
-    
-    
+    <div className='niddle'>
+    <button onClick={dns5} className='btn btn-primary'>ADD</button>
+    <h1>{wrt}</h1>
+      <h1>{store}</h1>
+      <button onClick={dns9} className='btn btn-danger'>ADD</button>
+    </div>
     
     
     
@@ -25,6 +39,15 @@ function Main() {
 }
 
 export default Main
+
+
+
+
+
+
+
+
+
     
     
    
