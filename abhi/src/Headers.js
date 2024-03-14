@@ -1,19 +1,17 @@
-/* 
 import React from 'react'
 
-function Headers({data,upd,loves}) {
+function Headers() {
   return (
     <>
-    <h1>{data}</h1>
-    <button onClick={upd}>ADD</button>
-    <h2>Abhi loves {loves}</h2>
+    <h1>Im a child of God.</h1>
+    
     
     
     </>
   )
 }
 
-export default Headers */
+export default Headers
     
     
     

@@ -1,4 +1,4 @@
-export const Ques=[
+  const Ques=[
     {
         prompt:'Who is the king of kings?',
         optionA:'everyone',
@@ -56,3 +56,4 @@ export const Ques=[
   Answer:'C'
 }
 ]
+export default Ques
